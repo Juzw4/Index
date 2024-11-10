@@ -3,53 +3,50 @@ html, body {
   padding: 0;
   height: 100%;
   width: 100%;
-  background-image: url('impreview.png'); /* Apply background image to the body */
-  background-size: cover; /* Ensure the background image covers the viewport */
+  background-image: url('impreview.png'); 
+  background-size: cover; 
    background-size: 800px 600px;
   background-repeat: no-repeat;
   background-position: top left;
-  background-attachment: fixed; /* Background stays fixed while scrolling */
+  background-attachment: fixed; 
   min-height: 105vh;
 }
 
 .container {
   display: flex;
-  flex-direction: column; /* Stack divs vertically */
+  flex-direction: column; 
   flex: 1;
-  min-height: 100vh; /* Ensure the container stretches to fill the entire viewport */
+  min-height: 100vh; 
 }
-
-
 
 #TB {
   width: 100px;
-  display: block; /* Ensure the table behaves as a block-level element */
-  margin: 20px auto; /* Centers the table */
+  display: block; 
 }
 
 .ubos {
   background-image: url('grges.jpg');
-  background-size: cover; /* Ensure the background image covers the div */
+  background-size: cover; 
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 400px; /* Adjust height of the div */
-
+  height: 400px;
+  margin: auto;
 }
 
 .MP {
-  background-color: white;
+  background-color: #6c8287;
   color: black;
   font-family: Monaco;
-  height: 100px; /* Let content define the height */
-  padding: 10px; /* Add some padding */
+  height: 100px; 
+  padding: 10px; 
 }
 
 .Ex {
   background-color: #6c8287;
   font-family: Helvetica;
   height: 100px;
-  text-align: center; /* Centers the content */
-  padding: 10px; /* Add padding for spacing */
+  text-align: center; 
+  padding: 10px; 
 }
 
 .FL {
@@ -60,11 +57,27 @@ html, body {
   font-family: Copperplate;
   font-size: 30px;
   font-weight: bold;
-  
+ 
 }
 
 #IWT {
   font-family: Lucida Console;
   font-size: 15px;
   color: #465be8;
+}
+
+a:link{
+	color:#d7e0db;
+}
+
+a:hover{
+	color:#c4c4c4;
+}
+
+a:active{
+	color:#ff9e9e; 
+}
+
+a:visited{
+	color:#ad9a9a;
 }
