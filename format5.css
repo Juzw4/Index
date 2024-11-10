@@ -1,0 +1,70 @@
+.container{
+	display: flex;
+}
+
+.boxes {
+height: 300px;
+width: 300px;
+background-color:green;
+border: 10px beige solid;
+border-radius: 20px;
+padding: 15px;
+margin: 15px;
+
+}
+p.one {
+	width: 75%;
+	height: 75%;
+	background-color: skyblue;
+}
+
+.boxes2 {
+height: 300px;
+width: 300px;
+background-color: blue;
+border: 10px beige solid;
+border-radius: 20px;
+padding: 15px;
+margin: 15px;
+}
+p.setOverflow {
+overflow: scroll;
+background-color: #ff7341;
+}
+
+.box3 {
+height: 300px;
+width: 300px;
+background-color: white;
+border: 10px beige solid;
+border-radius: 20px;
+padding: 15px;
+margin: 15px;
+}
+
+#jw {
+	color: white;
+} 
+
+
+#sr{
+height: 20px;
+width: 200px;
+background-color: #ff8849;
+border: 2px #ff8849;
+border-radius: 20px;
+padding: 2px;
+margin: 2px;
+}
+
+a:link{
+	color:blueviolet;
+}
+
+a:hover{
+	color: green;
+}
+
+a:visited{
+	color:orange;
+}

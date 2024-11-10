@@ -1,0 +1,70 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url('impreview.png'); /* Apply background image to the body */
+  background-size: cover; /* Ensure the background image covers the viewport */
+   background-size: 800px 600px;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-attachment: fixed; /* Background stays fixed while scrolling */
+  min-height: 105vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* Stack divs vertically */
+  flex: 1;
+  min-height: 100vh; /* Ensure the container stretches to fill the entire viewport */
+}
+
+
+
+#TB {
+  width: 100px;
+  display: block; /* Ensure the table behaves as a block-level element */
+  margin: 20px auto; /* Centers the table */
+}
+
+.ubos {
+  background-image: url('grges.jpg');
+  background-size: cover; /* Ensure the background image covers the div */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 400px; /* Adjust height of the div */
+
+}
+
+.MP {
+  background-color: white;
+  color: black;
+  font-family: Monaco;
+  height: 100px; /* Let content define the height */
+  padding: 10px; /* Add some padding */
+}
+
+.Ex {
+  background-color: #6c8287;
+  font-family: Helvetica;
+  height: 100px;
+  text-align: center; /* Centers the content */
+  padding: 10px; /* Add padding for spacing */
+}
+
+.FL {
+  font-family: Georgia;
+}
+
+#NB {
+  font-family: Copperplate;
+  font-size: 30px;
+  font-weight: bold;
+  
+}
+
+#IWT {
+  font-family: Lucida Console;
+  font-size: 15px;
+  color: #465be8;
+}
